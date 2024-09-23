@@ -19,10 +19,12 @@ Key points about Bash:
 ## Setting Up the Bash Environment
 
 1. Check your Bash version:
+echo $BASH_VERSION
+or
+bash --version
 
 
-
-2. Create a directory for your Bash scripts:
+3. Create a directory for your Bash scripts:
 
 mkdir ~/bash_scripts
 cd ~/bash_scripts
@@ -33,7 +35,6 @@ cd ~/bash_scripts
 touch hello_world.sh
 chmod +x hello_world.sh
 
-text
 
 4. Open the script in a text editor and add:
 
@@ -42,8 +43,6 @@ text
     echo "Hello, World!"
 
     Run your script:
-
-    text
     ./hello_world.sh
 
 ## Basic Bash Commands
